@@ -8,5 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Benefi extends Model
 {
     use HasFactory;
-    protected $fillable = ['first_name'];
+    protected $fillable = [
+        'first_name','second_name','last_name','sex','nationality'
+    ];
+
+
 }

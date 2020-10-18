@@ -16,6 +16,10 @@ class CreateBenefisTable extends Migration
         Schema::create('benefis', function (Blueprint $table) {
             $table->id();
             $table->String('first_name');
+            $table->String('second_name');
+            $table->String('last_name');
+            $table->String('sex');
+            $table->String('nationality');
             $table->timestamps();
         });
     }
