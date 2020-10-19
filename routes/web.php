@@ -19,4 +19,3 @@ Route::get('/', function () {
 
 Route::resource('benefis', BenefiController::class);
 
-

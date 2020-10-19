@@ -20,15 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7792d2d-47ba-4b12-9a9d-f2eab978ab9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/benefis/otherinfo.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BenefiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BenefiController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Benefi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Benefi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_15_055612_create_benefis_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_15_055612_create_benefis_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/benefis/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/benefis/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/benefis/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/benefis/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/benefis/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/benefis/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,9 +183,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602741017006</updated>
       <workItem from="1602741021028" duration="6174000" />
-      <workItem from="1603004615176" duration="79000" />
-      <workItem from="1603004941256" duration="213000" />
-      <workItem from="1603005497667" duration="10106000" />
+      <workItem from="1603083891972" duration="887000" />
     </task>
     <servers />
   </component>
@@ -205,11 +200,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="273" y="285" key="Vcs.Push.Dialog.v2" timestamp="1603018174592">
+    <state x="700" y="405" key="Vcs.Push.Dialog.v2" timestamp="1603084837676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="273" y="285" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603018174592" />
+    <state x="700" y="405" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603084837676" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/benefis/index.blade.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -26,7 +26,6 @@ class BenefiController extends Controller
      */
     public function create()
     {
-
         return view('benefis.create');
     }
 
@@ -41,9 +40,6 @@ class BenefiController extends Controller
         $request->validate(
             ['first_name' => 'required']
         );
-        //model name
-        Benefi::create($request->all());
-
         return redirect()->route('benefis.index')
             ->with('success','Data entered successfully.');
     }
